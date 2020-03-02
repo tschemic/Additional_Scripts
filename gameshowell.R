@@ -1,4 +1,5 @@
 ### Games-Howell test function
+# source: https://rpubs.com/aaronsc32/games-howell-test
 
 games.howell <- function(grp, obs) {
   
