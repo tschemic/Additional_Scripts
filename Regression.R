@@ -72,6 +72,7 @@ ggplot(data = Boston, aes(x=lstat, y=medv)) +
   geom_line(aes(x=newx, y=as.vector(pred_interval2[,1]))) +
   geom_line(aes(x=newx, y=as.vector(pred_interval2[,2])), color = "blue", lty = 2) +
   geom_line(aes(x=newx, y=as.vector(pred_interval2[,3])), color = "blue", lty = 2) +
+  geom_ribbon(aes(x=newx, ymin = as.vector(pred_interval2[,2]), ymax = as.vector(pred_interval2[,3])), alpha = 0.1)
   cleanup
 
 
