@@ -1,0 +1,89 @@
+---
+title: "Dose-response"
+author: "Michael Tscherner"
+date: "March 7, 2018"
+output:
+  html_document: default
+  pdf_document: default
+---
+Source:
+https://stackoverflow.com/questions/36780357/plotting-dose-response-curves-with-ggplot2-and-drc
+
+Import libraries
+```{r}
+library("reshape2")
+library("ggplot2")
+library("dplyr")
+library("drc")
+```
+
+Create demo dataset and convert to long format
+```{r}
+data1 = read.table("171102 dose-response.csv", header=T, sep="\t")
+data2 <- reshape2::melt(data1,id.vars = "X4HPA")
+```
+
+Create a 4-parameter log-logistic model and predict datapoints
+```{r}
+data2.LL.4 <- drm(data = data2, value~X4HPA, fct=LL.4(), na.action = na.omit)
+data2.fits <- expand.grid(conc=exp(seq(log(1.00e-04), log(1.00e+03), length=100))) # predictions and confidence intervals.
+pm <- predict(data2.LL.4, newdata=data2.fits, interval="confidence") 
+data2.fits$p <- pm[,1]
+data2.fits$pmin <- pm[,2]
+data2.fits$pmax <- pm[,3] # new data with predictions
+
+
+```
+
+Change the zero concentration to be able to process it in log scale
+```{r}
+data2$HPA <- data2$X4HPA
+data2$HPA[data2$HPA == 0] <- 1.00e-04
+```
+
+Plotting
+```{r}
+### extensive cleanup for plot (run before plot) 
+cleanup = theme(panel.grid.major = element_blank(),
+                panel.grid.minor = element_blank(),
+                panel.background = element_blank(),
+                axis.line = element_line(color = "black", lineend = "round", size =1),
+                plot.margin = margin(0.5, 0.5, 0.5, 1, "cm"),
+                axis.ticks = element_line(size = 1, lineend = "round", color = "black"))
+
+titles = theme(axis.title.x = element_text(face = "bold", size = 24, color = "black", margin = margin(1,0,0,0,"cm"))) +
+  theme(axis.title.y = element_text(face = "bold", size = 24, color = "black", margin = margin(0,1,0,0,"cm"))) +
+  theme(axis.text.x = element_text(face = "bold", size = 12, color = "black", angle = 45, vjust = 0.9, hjust = 1)) +
+  theme(axis.text.y = element_text(face = "bold", size = 12, color = "black", angle = 0, margin = margin(0,0.2,0,0,"cm")))
+
+xlb = readline(prompt = "Enter x axis label:")
+ylb = readline(prompt = "Enter y axis label:")
+xlimits = c(0.01, 5000)    ### set xlimits manually
+xticks = c(0.01, 0.1, 1, 10, 100, 1000)   ### set xtick marks manually 
+ylimits = c(0, 8e+05)    ### set ylimits manually
+yticks = c(0, 2e+05, 4e+05, 6e+05, 8e+05)   ### set ytick marks manually 
+
+myplot = ggplot(data2, aes(x = HPA, y = value)) +
+  geom_point() +
+  xlab(xlb) + ylab(ylb) +
+  titles +
+  scale_x_continuous(limits = xlimits, expand = c(0,0), breaks = xticks) +
+  scale_y_continuous(limits = ylimits, expand = c(0,0), breaks = yticks) +
+   ## geom_ribbon(data=data2.fits, aes(x=conc, y=p, ymin=pmin, ymax=pmax), alpha=0.2) +  ## plots errors
+   geom_line(data=data2.fits, aes(x=conc, y=p)) +
+   coord_trans(x="log") +
+    cleanup
+```
+
+Export
+```{r}
+png("myplot.png", family = "Liberation Sans",  bg = "transparent")
+myplot
+dev.off()
+
+pdf("myplot.pdf")
+myplot
+dev.off()
+
+```
+
