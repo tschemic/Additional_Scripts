@@ -20,4 +20,16 @@ library(RCurl) is required for it.
 
 
 
+<!-- Actual text -->
 
+You can find me on [![LinkedIn][1.2]][1], or on [![ResearchGate][3.2]][3].
+
+<!-- Icons -->
+
+[1.2]: https://github.com/tschemic/Additional_Scripts/blob/master/LI.png (LinkedIn icon)
+[2.2]: https://github.com/tschemic/Additional_Scripts/blob/master/RG.png (ResearchGate icon)
+
+<!-- Links to your social media accounts -->
+
+[1]: https://www.linkedin.com/in/michael-tscherner-81335265/
+[2]: https://www.researchgate.net/profile/Michael_Tscherner
