@@ -16,5 +16,5 @@ library(RCurl) is required for it.
 ![Github stats](https://github-readme-stats.vercel.app/api?username=tschemic&hide=issues,contribs)
 
 
-## <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tschemic&theme=dark" />
+![Languages used](https://github-readme-stats.vercel.app/api/top-langs/?username=tschemic&theme=dark)
 
