@@ -13,7 +13,7 @@ library(RCurl) is required for it.
 
 # Languages Overview
 
-[![Github stats](https://github-readme-stats.vercel.app/api?username=tschemic&hide=issues,contribs)]
+[![Github stats](https://github-readme-stats.vercel.app/api?username=tschemic&hide=issues,contribs)](https://github.com/tschemic/github-readme-stats)
 
 
 ## <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tschemic&theme=dark" />
