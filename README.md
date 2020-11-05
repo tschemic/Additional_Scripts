@@ -19,17 +19,3 @@ library(RCurl) is required for it.
 [![Languages used](https://github-readme-stats.vercel.app/api/top-langs/?username=tschemic&exclude_repo=ThinkStats2,RNAseq_analysis,RNAseq_analysis_mouse,ATACseq_analysis&theme=dark)](https://github.com/tschemic/Additional_Scripts)
 
 
-
-<!-- Actual text -->
-
-You can find me on [![LinkedIn][1.2]][1], or on [![ResearchGate][3.2]][3].
-
-<!-- Icons -->
-
-[1.2]: https://github.com/tschemic/Additional_Scripts/blob/master/LI.png (LinkedIn icon)
-[2.2]: https://github.com/tschemic/Additional_Scripts/blob/master/RG.png (ResearchGate icon)
-
-<!-- Links to your social media accounts -->
-
-[1]: https://www.linkedin.com/in/michael-tscherner-81335265/
-[2]: https://www.researchgate.net/profile/Michael_Tscherner
