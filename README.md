@@ -16,5 +16,13 @@ library(RCurl) is required for it.
 ![Github stats](https://github-readme-stats.vercel.app/api?username=tschemic&hide=issues,contribs&show_icons=true)
 
 
+![Languages used](https://github-readme-stats.vercel.app/api/top-langs/?username=tschemic&theme=dark)
 ![Languages used](https://github-readme-stats.vercel.app/api/top-langs/?username=tschemic&theme=radical)
-
+![Languages used](https://github-readme-stats.vercel.app/api/top-langs/?username=tschemic&theme=merko)
+![Languages used](https://github-readme-stats.vercel.app/api/top-langs/?username=tschemic&theme=gruvbox)
+![Languages used](https://github-readme-stats.vercel.app/api/top-langs/?username=tschemic&theme=tokyonight)
+![Languages used](https://github-readme-stats.vercel.app/api/top-langs/?username=tschemic&theme=onedark)
+![Languages used](https://github-readme-stats.vercel.app/api/top-langs/?username=tschemic&theme=cobalt)
+![Languages used](https://github-readme-stats.vercel.app/api/top-langs/?username=tschemic&theme=synthwave)
+![Languages used](https://github-readme-stats.vercel.app/api/top-langs/?username=tschemic&theme=highcontrast)
+![Languages used](https://github-readme-stats.vercel.app/api/top-langs/?username=tschemic&theme=dracula)
