@@ -1,4 +1,4 @@
-![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=tschemic&repo=Additional_Scripts&theme=dark)
+![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=tschemic&repo=Additional_Scripts&theme=dark&show_owner=true)
 
 # Description
 Collection of scripts, files and programs
