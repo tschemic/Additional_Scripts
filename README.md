@@ -16,7 +16,7 @@ library(RCurl) is required for it.
 ![Github stats](https://github-readme-stats.vercel.app/api?username=tschemic&hide=issues,contribs&show_icons=true&theme=dark)
 ![Languages used](https://github-readme-stats.vercel.app/api/top-langs/?username=tschemic&theme=dark)
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=tschemic&repo=github-readme-stats&theme=dark)](https://github.com/tschemic/github-readme-stats)
 
 
 
