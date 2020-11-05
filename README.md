@@ -1,4 +1,4 @@
-# Additional Scripts
+# Description
 Collection of scripts, files and programs
 
 plot_cleanup: contains cleanup for plots in R
@@ -13,5 +13,8 @@ library(RCurl) is required for it.
 
 # Languages Overview
 
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tschemic&theme=dark" />
+[!Github stats](https://github-readme-stats.vercel.app/api?username=tschemic)](https://github.com/tschemic/github-readme-stats)
+
+
+## <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tschemic&theme=dark" />
 
