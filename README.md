@@ -13,7 +13,7 @@ Use 'eval(parse(text = getURL("https://raw.githubusercontent.com/tschemic/Additi
 
 library(RCurl) is required for it.
 
-# Languages Overview
+# Stats
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=tschemic&hide=issues,contribs&show_icons=true&theme=dark)
 ![Languages used](https://github-readme-stats.vercel.app/api/top-langs/?username=tschemic&theme=dark)
