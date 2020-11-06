@@ -12,8 +12,9 @@ Source: https://github.com/fdryan/R/blob/master/ggplot2_formatter.r
 Use 'eval(parse(text = getURL("https://raw.githubusercontent.com/tschemic/Additional_Scripts/master/plot_cleanup.R", ssl.verifypeer = FALSE)))' to import e.g. plot_cleanup in R.
 
 library(RCurl) is required for it.
+<br/>
 
-# Stats
+## Languages
 
 [![Languages used](https://github-readme-stats.vercel.app/api/top-langs/?username=tschemic&exclude_repo=ThinkStats2,RNAseq_analysis,RNAseq_analysis_mouse,ATACseq_analysis&theme=dark)](https://github.com/tschemic/Additional_Scripts)
 
