@@ -37,6 +37,8 @@ d + cleanup
 
 ### Fitting 4 Parameter Logistic (4PL) models to dose-response with drc package
 library("drc")
+library(RCurl)
+eval(parse(text = getURL("https://raw.githubusercontent.com/tschemic/Additional_Scripts/master/plot_cleanup.R", ssl.verifypeer = FALSE)))
 
 data2.LL.4 <- drm(data = sample_data, Response~Dose, fct=LL.4(), na.action = na.omit)
 data2.fits <- expand.grid(conc=exp(seq(log(1.00e-04), log(1.00e+05), length=100))) # predictions and confidence intervals.
