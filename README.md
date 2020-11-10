@@ -5,15 +5,16 @@ Collection of scripts, files and programs
 <br/>
 <br/>
 
-#### plot_cleanup: contains cleanup for plots in R
+#### plot_cleanup.R
+contains cleanup for plots in R
+Use 'eval(parse(text = getURL("https://raw.githubusercontent.com/tschemic/Additional_Scripts/master/plot_cleanup.R", ssl.verifypeer = FALSE)))' to import e.g. plot_cleanup in R.
+library(RCurl) is required for it.
 
-#### convert_to_human_readable_numbers: converts numbers into more readable format e.g. for plot labeling
-
+#### convert_to_human_readable_numbers.R
+converts numbers into more readable format e.g. for plot labeling
 Source: https://github.com/fdryan/R/blob/master/ggplot2_formatter.r
 
-Use 'eval(parse(text = getURL("https://raw.githubusercontent.com/tschemic/Additional_Scripts/master/plot_cleanup.R", ssl.verifypeer = FALSE)))' to import e.g. plot_cleanup in R.
 
-library(RCurl) is required for it.
 <br/>
 <br/>
 
