@@ -32,7 +32,7 @@ Example plot for drc package:
 
 <br/>
 
-## Languages
+##### Languages
 
 [![Languages used](https://github-readme-stats.vercel.app/api/top-langs/?username=tschemic&exclude_repo=ThinkStats2,RNAseq_analysis,RNAseq_analysis_mouse,ATACseq_analysis&theme=dark)](https://github.com/tschemic/Additional_Scripts)
 
