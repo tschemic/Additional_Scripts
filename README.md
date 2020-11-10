@@ -5,9 +5,9 @@ Collection of scripts, files and programs
 <br/>
 <br/>
 
-##### plot_cleanup: contains cleanup for plots in R
+#### plot_cleanup: contains cleanup for plots in R
 
-##### convert_to_human_readable_numbers: converts numbers into more readable format e.g. for plot labeling
+#### convert_to_human_readable_numbers: converts numbers into more readable format e.g. for plot labeling
 
 Source: https://github.com/fdryan/R/blob/master/ggplot2_formatter.r
 
@@ -17,7 +17,7 @@ library(RCurl) is required for it.
 <br/>
 <br/>
 
-##### 4_parameter_logistic_fit.R
+#### 4_parameter_logistic_fit.R
 Script contains code for fitting 4 parameter logistic models using either dr4pl or drc packages.
 
 Example plot for dr4pl package:
@@ -32,7 +32,7 @@ Example plot for drc package:
 
 <br/>
 
-##### Languages
+#### Languages
 
 [![Languages used](https://github-readme-stats.vercel.app/api/top-langs/?username=tschemic&exclude_repo=ThinkStats2,RNAseq_analysis,RNAseq_analysis_mouse,ATACseq_analysis&theme=dark)](https://github.com/tschemic/Additional_Scripts)
 
