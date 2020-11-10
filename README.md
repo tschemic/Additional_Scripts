@@ -19,12 +19,12 @@ Script contains code for fitting 4 parameter logistic models using either dr4pl 
 
 Example plot for dr4pl package:
 
-<img src="/images/4PL_plot_dr4pl.png" alt="dr4pl" width="1000"/>
+<img src="/images/4PL_plot_dr4pl.png" alt="dr4pl" width="500"/>
 
 
 Example plot for drc package:
 
-<img src="/images/4PLfit_drc.png" alt="drc" width="1000"/>
+<img src="/images/4PLfit_drc.png" alt="drc" width="500"/>
 
 
 
