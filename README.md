@@ -2,6 +2,8 @@
 
 # Description
 Collection of scripts, files and programs
+<br/>
+<br/>
 
 ##### plot_cleanup: contains cleanup for plots in R
 
@@ -12,6 +14,7 @@ Source: https://github.com/fdryan/R/blob/master/ggplot2_formatter.r
 Use 'eval(parse(text = getURL("https://raw.githubusercontent.com/tschemic/Additional_Scripts/master/plot_cleanup.R", ssl.verifypeer = FALSE)))' to import e.g. plot_cleanup in R.
 
 library(RCurl) is required for it.
+<br/>
 <br/>
 
 ##### 4_parameter_logistic_fit.R
@@ -27,6 +30,7 @@ Example plot for drc package:
 <img src="/images/4PLfit_drc.png" alt="drc" width="500"/>
 
 
+<br/>
 
 ## Languages
 
