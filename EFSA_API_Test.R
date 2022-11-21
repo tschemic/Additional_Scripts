@@ -2,7 +2,7 @@ library(tidyverse)
 library(xml2)
 library(httr)
 
-API_key <- "c481e0da54e241c8bc738412a8f9e55f"
+API_key <- ""
 catalog <- "GENDER"
 
 # REST APIs
